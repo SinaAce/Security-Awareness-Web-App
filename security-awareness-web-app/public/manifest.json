@@ -1,0 +1,12 @@
+{
+  "short_name": "Shilda",
+  "name": "Shilda Security App",
+  "icons": [
+    { "src": "icons/SHILDA192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/SHILDA512.png", "sizes": "512x512", "type": "image/png" }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#028673",
+  "background_color": "#1B262C"
+}
