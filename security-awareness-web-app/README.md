@@ -1,16 +1,83 @@
-# React + Vite
+# Web Security Analyzer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Security Awareness Web Application
 
-Currently, two official plugins are available:
+This project is developed as part of the **Computer Network Security** course.  
+The goal of this project is to increase **user security awareness** by addressing
+common user-based vulnerabilities in computer networks, specifically **weak passwords**
+and **phishing attacks**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The application is a **client-side web application** built with **React** that analyzes
+user inputs locally in the browser without transmitting or storing any sensitive data.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Project Objectives
 
-## Expanding the ESLint configuration
+The main objectives of this project are:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Increasing security awareness among network users
+- Analyzing password strength to prevent weak password usage
+- Detecting potentially malicious or phishing URLs
+- Reducing security risks caused by human factors
+- Applying theoretical concepts of computer network security in a practical project
+
+---
+
+## Relation to Computer Network Security
+
+This project is directly related to several key topics in computer network security, including:
+
+- Human factor in network security
+- Social engineering and phishing attacks
+- Preventive security mechanisms
+- User-centric security models
+- Defense-in-depth strategy
+
+By educating users and providing real-time feedback, the application acts as a **preventive
+security layer** in network environments.
+
+---
+
+## Application Features
+
+- Password strength analysis based on length, complexity, and common weakness patterns
+- Detection of suspicious or potentially malicious URLs
+- Real-time feedback to users
+- Fully client-side execution
+- No backend or database required
+- Privacy-preserving design
+
+---
+
+## System Architecture
+
+- Frontend: React (Vite)
+- Language: JavaScript
+- Styling: HTML & CSS
+- Execution: Browser-based (Client-Side)
+
+All security analyses are performed locally in the user's browser. No data is sent over
+the network or stored externally.
+
+---
+
+## Live Demo
+
+The project is deployed as a live web application and can be accessed at:
+
+https://jovial-monstera-138f26.netlify.app/
+
+This allows direct testing and evaluation of the application's functionality.
+
+---
+
+## Running the Project Locally
+
+In case of limited or unavailable internet access, the project can be executed locally.
+
+1. Install dependencies:
+
+```bash
+npm install
+```
